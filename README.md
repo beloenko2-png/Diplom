@@ -24,3 +24,6 @@ pytest test_api.py --alluredir=allure-results  запуск с сохранен�
 allure generate allure-results -o allure-report    генерация отчёта Allure
 allure open allure-report   просмотр отчёта
 pytest test_ui.py test_api.py --alluredir=allure-results запуск UI и API тестов
+
+
+https://skypro1111.yonote.ru/share/df0b2e9e-76aa-492f-9abf-e670492d9542     ссылка на финальный проект по ручному тестированию
