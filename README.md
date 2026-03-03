@@ -12,15 +12,15 @@
 
 5.Нажатие значка лупа выдает список найденных товаров.
 
-pytest test_ui.py   запуск теста
+pytest test_ui.py     запуск теста
 
-pytest test_ui.py --alluredir=allure-results  запуск с сохранением результатов для Allure 
+pytest test_ui.py --alluredir=allure-results    запуск с сохранением результатов для Allure 
 
-allure generate allure-results -o allure-report    генерация отчёта Allure
+allure generate allure-results -o allure-report      генерация отчёта Allure
 
-allure open allure-report   просмотр отчёта
+allure open allure-report     просмотр отчёта
 
-pytest test_ui.py test_api.py --alluredir=allure-results запуск UI и API тестов
+pytest test_ui.py test_api.py --alluredir=allure-results     запуск UI и API тестов
 
 
 
@@ -40,13 +40,13 @@ pytest test_ui.py test_api.py --alluredir=allure-results запуск UI и API 
 
 pytest test_api.py   запуск теста
 
-pytest test_api.py --alluredir=allure-results  запуск с сохранением результатов для Allure
+pytest test_api.py --alluredir=allure-results    запуск с сохранением результатов для Allure
 
-allure generate allure-results -o allure-report    генерация отчёта Allurе
+allure generate allure-results -o allure-report      генерация отчёта Allurе
 
-allure open allure-report   просмотр отчёта
+allure open allure-report     просмотр отчёта
 
-pytest test_ui.py test_api.py --alluredir=allure-results запуск UI и API тестов
+pytest test_ui.py test_api.py --alluredir=allure-results     запуск UI и API тестов
 
 
 
